@@ -6,9 +6,9 @@ Hệ thống **Quản Lý Chi Tiêu Cá Nhân** là ứng dụng hỗ trợ ngư
 Người dùng có thể ghi nhận các khoản thu – chi hằng ngày, phân loại theo từng danh mục và xem báo cáo thống kê chi tiết theo thời gian.
 
 👉 Mục tiêu của hệ thống là giúp người dùng:
-* Quản lý tiền bạc khoa học hơn
-* Hạn chế chi tiêu không cần thiết
-* Dễ dàng theo dõi tình hình tài chính cá nhân
+ Quản lý tiền bạc khoa học hơn
+ Hạn chế chi tiêu không cần thiết
+ Dễ dàng theo dõi tình hình tài chính cá nhân
 
 ✨ Tính năng nổi bật
 ✔️ Ghi nhận nhanh các khoản **thu – chi**
@@ -18,10 +18,15 @@ Người dùng có thể ghi nhận các khoản thu – chi hằng ngày, phân
 ✔️ Xuất báo cáo phục vụ quản lý tài chính
 
 ⚙️ Chức năng hệ thống
+
 👤 Quản lý người dùng
+
 💰 Quản lý thu nhập
+
 💸 Quản lý chi tiêu
+
 📊 Thống kê & báo cáo
+
 🔍 Tìm kiếm dữ liệu
 
 
