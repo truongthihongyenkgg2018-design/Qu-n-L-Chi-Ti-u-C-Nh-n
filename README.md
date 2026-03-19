@@ -49,22 +49,15 @@ Người dùng có thể ghi nhận các khoản thu – chi hằng ngày, phân
 
 | Thành phần    | Công nghệ     |
 | ------------- | ------------- |
-| Ngôn ngữ      | C#            |
-| Giao diện     | WinForms      |
-| Cơ sở dữ liệu | SQL Server    |
-| IDE           | Visual Studio |
+| Ngôn ngữ      | HTML, CSS, Js |
+| Giao diện     | Antigravity   |
+| Cơ sở dữ liệu | cloud   |
+| IDE           | Visual Studio code |
 
 
 🌐 Demo hệ thống
 
 https://quanlychitieucanhan.netlify.app/
-
-
-🔑 Tài khoản demo
-
-Username: abu
-
-Password: 123
 
 
 📊 Định hướng phát triển
