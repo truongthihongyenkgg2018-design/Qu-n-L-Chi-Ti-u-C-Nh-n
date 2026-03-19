@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản Lý Chi Tiêu Cá Nhân</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div id="app">
+        <!-- Auth View -->
+        <div id="auth-container" class="view hidden">
+            <div class="auth-card">
+                <div class="auth-header">
+                    <div class="logo">
+                        <i class="fas fa-wallet"></i>
+                        <span>SpendSmart</span>
+                    </div>
+                    <h2 id="auth-title">Đăng nhập để vào nhé tình yêu</h2>
+                    <p id="auth-subtitle">Vui lòng đăng nhập để tiếp tục</p>
+                </div>
+                <form id="auth-form">
+                    <div class="input-group">
+                        <label for="username">Tên đăng nhập</label>
+                        <input type="text" id="username" required placeholder="Nhập tên đăng nhập">
+                    </div>
+                    <div class="input-group">
+                        <label for="password">Mật khẩu</label>
+                        <input type="password" id="password" required placeholder="Nhập mật khẩu">
+                    </div>
+                    <button type="submit" id="auth-btn" class="btn-primary">Đăng nhập</button>
+                </form>
+                <div class="auth-footer">
+                    <p id="auth-toggle-text">Chưa có tài khoản? <a href="#" id="auth-toggle">Đăng ký ngay</a></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main View -->
+        <div id="main-container" class="view hidden">
+            <aside class="sidebar">
+                <div class="sidebar-header">
+                    <div class="logo">
+                        <i class="fas fa-wallet"></i>
+                        <span>SpendSmart</span>
+                    </div>
+                </div>
+                <nav class="sidebar-nav">
+                    <a href="#" class="nav-item active" data-view="dashboard">
+                        <i class="fas fa-th-large"></i>
+                        <span>Tổng quát</span>
+                    </a>
+                    <a href="#" class="nav-item" data-view="categories">
+                        <i class="fas fa-list-ul"></i>
+                        <span>Danh mục</span>
+                    </a>
+                    <a href="#" class="nav-item" data-view="income">
+                        <i class="fas fa-plus-circle"></i>
+                        <span>Thu nhập</span>
+                    </a>
+                    <a href="#" class="nav-item" data-view="expenses">
+                        <i class="fas fa-minus-circle"></i>
+                        <span>Chi tiêu</span>
+                    </a>
+                    <a href="#" class="nav-item" data-view="reports">
+                        <i class="fas fa-chart-pie"></i>
+                        <span>Báo cáo</span>
+                    </a>
+                </nav>
+                <div class="sidebar-footer">
+                    <div class="user-info">
+                        <div class="avatar"><i class="fas fa-user"></i></div>
+                        <div class="details">
+                            <p id="user-display-name">Admin</p>
+                            <span>Người dùng</span>
+                        </div>
+                    </div>
+                    <button id="logout-btn" class="btn-icon">
+                        <i class="fas fa-sign-out-alt"></i>
+                    </button>
+                </div>
+            </aside>
+
+            <main class="content">
+                <header class="content-header">
+                    <h1 id="view-title">Tổng quan tài chính</h1>
+                    <div class="current-date" id="header-date">Hôm nay, 18 Th03 2026</div>
+                </header>
+
+                <div id="view-content">
+                    <!-- Dashboard Template will be injected here -->
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <!-- Modals -->
+    <div id="modal-container" class="modal-overlay hidden">
+        <div class="modal">
+            <div class="modal-header">
+                <h3 id="modal-title">Tiêu đề Modal</h3>
+                <button class="modal-close" id="modal-close">&times;</button>
+            </div>
+            <div class="modal-body" id="modal-body">
+                <!-- Modal content injected here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
