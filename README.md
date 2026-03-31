@@ -54,8 +54,22 @@ Người dùng có thể ghi nhận các khoản thu – chi hằng ngày, phân
 | Cơ sở dữ liệu | cloud   |
 | IDE           | Visual Studio code |
 
+## TÀI KHOẢN ĐĂNG NHẬP
 
-🌐 Demo hệ thống
+Hệ thống không cung cấp sẵn tài khoản đăng nhập mặc định hoặc tài khoản admin.
+
+Do đây là ứng dụng quản lý chi tiêu cá nhân, mỗi người dùng sẽ tự tạo tài khoản riêng để quản lý dữ liệu của mình.
+
+Để sử dụng hệ thống, vui lòng thực hiện theo các bước sau:
+
+1. Truy cập link demo của hệ thống.
+2. Chọn chức năng **Đăng ký**.
+3. Tạo một tài khoản mới bằng thông tin bất kỳ.
+4. Sau khi đăng ký thành công, sử dụng tài khoản vừa tạo để đăng nhập.
+
+Lưu ý: Dữ liệu thu – chi sẽ được lưu theo từng tài khoản, vì vậy cần đăng ký trước khi sử dụng hệ thống.
+
+🌐 DEMO HỆ THỐNG
 
 LINK DEMO:  https://quanlychitieucanhan.netlify.app/
 
