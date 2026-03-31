@@ -57,7 +57,7 @@ Người dùng có thể ghi nhận các khoản thu – chi hằng ngày, phân
 
 🌐 Demo hệ thống
 
-https://quanlychitieucanhan.netlify.app/
+LINK DEMO:  https://quanlychitieucanhan.netlify.app/
 
 
 📊 Định hướng phát triển
